@@ -126,11 +126,11 @@ i.fa.fa-phone {
   padding-inline-start: 0;
 }
 
-.fa-facebook:hover,
-.fa-twitter:hover,
-.fa-google-plus-g:hover,
-.fa-instagram:hover,
-.fa-youtube:hover {
+.fa-telegram:hover,
+.fa-viber:hover,
+.fa-whatsapp:hover,
+.fa-phone:hover
+ {
   color: rgb(255, 188, 4) !important;
 }
 
@@ -149,8 +149,18 @@ footer {
   background-color: #02024d !important;
 }
 
-@media screen and (max-width:933px){
-  
-  
+@media  (max-width: 1130px){
+  .navbar-nav {
+    gap: 0 !important;
+  }
 }
 
+.navbar-nav{
+  gap: 30px;
+}
+
+.box-image {
+  max-width: 540px;
+  height: auto;
+  margin-inline: auto;
+}
